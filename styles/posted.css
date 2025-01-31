@@ -1,0 +1,89 @@
+.picture {
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  .days-gone-span {
+    color: rgb(169, 167, 167);
+    cursor: pointer;
+  }
+  .username-span {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .follow-span {
+    color: rgb(6, 134, 255);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .account-picture {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .account-details {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 3px;
+  }
+  .eclipes {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .more {
+    position: absolute;
+    display: flex;
+    right: 0;
+  }
+  .post-header {
+    display: flex;
+    align-items: center;
+    width: 466px;
+    position: relative;
+  }
+  .posted-media-content {
+    width: 466px;
+    cursor: pointer;
+  }
+  .stat-icon-div {
+    display: flex;
+    position: relative;
+    width: 466px;
+  }
+  .heart-stats-icons,
+  .chat-stats-icons,
+  .send-stats-icons {
+    height: 25px;
+    padding-right: 12px;
+    cursor: pointer;
+  }
+  .favourite-stats-icons {
+    height: 25px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+  .user-comment-div {
+    font-size: 14px;
+    border-bottom: 1px solid rgb(169, 167, 167);
+    margin-bottom: 20px;
+    width: 466px;
+  }
+  .username-comment-span,
+  .likes {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .likes {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .comments,
+  .add-comments {
+    display: block;
+    color: rgb(169, 167, 167);
+    margin-top: 8px;
+  }
+  .fyp-container{
+    margin-left: 60px;
+  }

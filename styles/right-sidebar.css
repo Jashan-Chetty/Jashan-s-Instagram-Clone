@@ -1,0 +1,72 @@
+.suggestions-container{
+position: relative;
+background-color: white;
+top: -1250px;
+left: 850px;
+margin-top: 20px;
+}
+.right-sidebar-container{
+  width: 320px;
+  position: absolute;
+
+  }
+  .follower-suggest-div{
+  display: inline-block;
+  display: flex;
+  }
+  .suggest-username-div{
+    display: inline-block;
+    line-height: 5px;
+    margin-left: 12px;
+  }
+  .follow-suggest-image{
+    display: inline-block;
+    height: 45px;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .switch{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: rgb(6, 134, 255);
+  }
+  .suggest-name{
+    color:rgb(169, 167, 167);
+  }
+  .suggest-username, .suggest-name, .switch, .sug-for-you, .see-all{
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .see-all{
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+  }
+  .sug-for-you{
+    color:rgb(169, 167, 167);
+    font-weight: bold;
+  }
+  .suggestions{
+    display: flex;
+    position: relative;;
+  }
+.privacy-item{
+    margin-top: 50px;
+}
+.privacy-item, .rights{
+      width: 275px;
+      color:rgb(199, 199, 199);
+      font-size: 12px;
+      line-height: 20px;
+}
+.rights{
+      padding-right: 12px;
+}
+.item{
+      cursor: pointer;
+}
+.item:hover{
+    text-decoration: underline;
+}

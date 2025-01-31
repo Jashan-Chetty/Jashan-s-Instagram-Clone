@@ -1,0 +1,22 @@
+.body,
+p {
+  font-family: Roboto, Arial;
+}
+.fyp-container {
+  width: 466px;
+  display: grid;
+  grid-template-columns: 466px;
+}
+.story-container{
+  display: flex;
+  width: 466px;
+}
+
+.main-fyp-content{
+  position: relative;
+  vertical-align: middle;
+  left: 250px;
+  flex: 2;
+  margin-left: 200px;
+  margin-top: 25px;
+}
